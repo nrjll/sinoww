@@ -16456,7 +16456,7 @@ fieldset:disabled .btn {
   gap: 15px;
   font-weight: 400;
 }
-.sidebar-nav ul .sidebar-item .sidebar-profile .sidebar-link span:first-child {
+.sidebar-nav ul .sidebar-item .sidebar-link span:first-child {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -16489,6 +16489,23 @@ fieldset:disabled .btn {
 .sidebar-nav .sidebar-list .sidebar-list-item {
   padding: 8px 0;
 }
+
+/*ini buat user kiri bawah*/
+.sidebar-nav ul .sidebar-profile .sidebar-link span:first-child {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 250px;
+}
+
+/*ini buat icon sama text e sejajar*/
+.sidebar-profile .ti {
+        vertical-align: middle;
+        margin-right: 5px; /*ini buat spasi antara icon dan text*/
+    }
+    .sidebar-profile .hide-menu {
+        line-height: 1;
+    }
 
 .collapse.in {
   display: block;
