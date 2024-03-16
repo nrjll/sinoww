@@ -16456,10 +16456,11 @@ fieldset:disabled .btn {
   gap: 15px;
   font-weight: 400;
 }
-.sidebar-nav ul .sidebar-item .sidebar-profile .sidebar-link span:first-child {
+.sidebar-nav ul .sidebar-item .sidebar-link span:first-child {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  margin-top:200px;
 }
 .sidebar-nav ul .sidebar-item .sidebar-link .ti {
   -ms-flex-negative: 0;
@@ -16488,6 +16489,12 @@ fieldset:disabled .btn {
 }
 .sidebar-nav .sidebar-list .sidebar-list-item {
   padding: 8px 0;
+}
+.sidebar-nav ul .sidebar-profile .sidebar-link span:first-child {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin-top: 350px;
 }
 
 .collapse.in {
