@@ -16497,6 +16497,23 @@ fieldset:disabled .btn {
     margin-top: 350px;
 }
 
+/*ini buat user kiri bawah*/
+.sidebar-nav ul .sidebar-profile .sidebar-link span:first-child {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 250px;
+}
+
+/*ini buat icon sama text e sejajar*/
+.sidebar-profile .ti {
+        vertical-align: middle;
+        margin-right: 5px; /*ini buat spasi antara icon dan text*/
+    }
+    .sidebar-profile .hide-menu {
+        line-height: 1;
+    }
+
 .collapse.in {
   display: block;
 }

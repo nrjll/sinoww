@@ -69,12 +69,12 @@
                                 <span class="hide-menu">Login</span>
                             </a>
                         </li>
-                        <li class="sidebar-item" >
+                        <li class="sidebar-profile" >
                             <a class="sidebar-link" href="./profile-page.php" aria-expanded="false">
                                 <span>
                                     <i class="ti ti-user"></i>
+                                    <span class="hide-menu">Jokowi</span>
                                 </span>
-                                <span class="hide-menu">Jokowi</span>
                             </a>
                         </li>
                     </ul>
