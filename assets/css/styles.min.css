@@ -16460,7 +16460,7 @@ fieldset:disabled .btn {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  
+  margin-top: 400px;
 }
 .sidebar-nav ul .sidebar-item .sidebar-link .ti {
   -ms-flex-negative: 0;
@@ -16516,15 +16516,15 @@ fieldset:disabled .btn {
 
 @media only screen and (max-width: 480px) {
     /*ini buat user kiri bawah*/
-.sidebar-nav ul .sidebar-profile .sidebar-link span:first-child {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  margin-top: 100px;
-}
+    .sidebar-nav ul .sidebar-profile .sidebar-link span:first-child {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      margin-top: 100px;
+    }
 
-/*ini buat icon sama text e sejajar*/
-.sidebar-profile .ti {
+    /*ini buat icon sama text e sejajar*/
+    .sidebar-profile .ti {
         vertical-align: middle;
         margin-right: 5px; /*ini buat spasi antara icon dan text*/
     }
@@ -16533,6 +16533,62 @@ fieldset:disabled .btn {
     }
 }
 
+@media only screen and (max-width: 768px) {
+  /*ini buat user kiri bawah*/
+  .sidebar-nav ul .sidebar-profile .sidebar-link span:first-child {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin-top: 100px;
+  }
+
+  /*ini buat icon sama text e sejajar*/
+  .sidebar-profile .ti {
+      vertical-align: middle;
+      margin-right: 5px; /*ini buat spasi antara icon dan text*/
+  }
+  .sidebar-profile .hide-menu {
+      line-height: 1;
+  }
+}
+
+@media only screen and (max-width: 1024px) {
+  /*ini buat user kiri bawah*/
+  .sidebar-nav ul .sidebar-profile .sidebar-link span:first-child {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin-top: 200px;
+  }
+
+  /*ini buat icon sama text e sejajar*/
+  .sidebar-profile .ti {
+      vertical-align: middle;
+      margin-right: 5px; /*ini buat spasi antara icon dan text*/
+  }
+  .sidebar-profile .hide-menu {
+      line-height: 1;
+  }
+}
+
+@media only screen and (min-width: 10250px) {
+  /*ini buat user kiri bawah*/
+  .sidebar-nav ul .sidebar-profile .sidebar-link span:first-child {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin-top: 100px;
+  }
+
+  /*ini buat icon sama text e sejajar*/
+  .sidebar-profile .ti {
+      vertical-align: middle;
+      margin-right: 5px; /*ini buat spasi antara icon dan text*/
+  }
+  .sidebar-profile .hide-menu {
+      line-height: 1;
+  }
+}
 
 .collapse.in {
   display: block;
