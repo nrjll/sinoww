@@ -16460,7 +16460,7 @@ fieldset:disabled .btn {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  margin-top: 400px;
+  
 }
 .sidebar-nav ul .sidebar-item .sidebar-link .ti {
   -ms-flex-negative: 0;
@@ -16497,6 +16497,25 @@ fieldset:disabled .btn {
     margin-top: 350px;
 }
 
+.sidebar-nav ul .sidebar-profile .sidebar-link {
+  color: #2a3547;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  font-size: 14px;
+  white-space: nowrap;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  line-height: 25px;
+  position: relative;
+  margin: 0px 0px 2px;
+  padding: 10px;
+  border-radius: 7px;
+  gap: 15px;
+  font-weight: 400;
+}
+
 /*ini buat user kiri bawah*/
 .sidebar-nav ul .sidebar-profile .sidebar-link span:first-child {
   display: -webkit-box;
@@ -16513,6 +16532,20 @@ fieldset:disabled .btn {
     .sidebar-profile .hide-menu {
         line-height: 1;
     }
+
+.sidebar-nav ul .sidebar-profile .sidebar-link:hover {
+      background-color: rgba(93, 135, 255, 0.1);
+      color: #5d87ff;
+}
+.sidebar-nav ul .sidebar-profile .sidebar-link:hover.has-arrow:after {
+      border-color: #5d87ff;
+}
+.sidebar-nav ul .sidebar-profile .sidebar-link.active:hover.has-arrow:after {
+      border-color: #fff;
+}
+.sidebar-nav ul .sidebar-profile .link-disabled {
+      opacity: 0.38;
+}
 
 @media only screen and (max-width: 480px) {
     /*ini buat user kiri bawah*/
